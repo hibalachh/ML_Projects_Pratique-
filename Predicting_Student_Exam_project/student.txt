@@ -1,0 +1,72 @@
+🏫 Student Information Dataset (Simplified)
+Basic Demographics
+School: GP (Gabriel Pereira) or MS (Mousinho da Silveira)
+
+Sex: F (female) or M (male)
+
+Age: 15–22 years
+
+Address: U (urban) or R (rural)  
+
+Family Size: LE3 (≤3 members) or GT3 (>3 members)
+
+Parent Status: T (together) or A (apart)
+
+Parental Background
+Mother’s Education (Medu): 0 (none) → 4 (higher education)
+
+Father’s Education (Fedu): 0 (none) → 4 (higher education)
+
+Mother’s Job (Mjob): teacher, health, services, at_home, other
+
+Father’s Job (Fjob): teacher, health, services, at_home, other
+
+School-Related Factors
+Reason for School Choice: home, reputation, course, other
+
+Guardian: mother, father, other
+
+Travel Time: 1 (<15 min) → 4 (>1 hr)
+
+Study Time: 1 (<2 hrs/week) → 4 (>10 hrs/week)
+
+Failures: 0–3, or 4 (≥3 failures)
+
+Support & Activities
+School Support (schoolsup): yes/no
+
+Family Support (famsup): yes/no
+
+Paid Classes: yes/no
+
+Activities: yes/no
+
+Nursery Attendance: yes/no
+
+Higher Education Aspiration: yes/no
+
+Internet Access: yes/no
+
+Romantic Relationship: yes/no
+
+Lifestyle & Wellbeing
+Family Relationship Quality (famrel): 1 (bad) → 5 (excellent)
+
+Free Time (freetime): 1 (low) → 5 (high)
+
+Going Out (goout): 1 (low) → 5 (high)
+
+Workday Alcohol (Dalc): 1 (low) → 5 (high)
+
+Weekend Alcohol (Walc): 1 (low) → 5 (high)
+
+Health Status: 1 (bad) → 5 (good)
+
+Absences: 0–93
+
+Grades
+G1: First period grade (0–20)
+
+G2: Second period grade (0–20)
+
+G3: Final grade (0–20, target variable)
