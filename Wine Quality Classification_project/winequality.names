@@ -1,0 +1,100 @@
+
+
+   Input variables (based on physicochemical tests):
+   1 - fixed acidity
+   2 - volatile acidity
+   3 - citric acid
+   4 - residual sugar
+   5 - chlorides
+   6 - free sulfur dioxide
+   7 - total sulfur dioxide
+   8 - density
+   9 - pH
+   10 - sulphates
+   11 - alcohol
+   Output variable (based on sensory data): 
+   12 - quality (score between 0 and 10)
+
+🍷 Wine Features Explained Simply
+Fixed Acidity
+
+Acids that don’t evaporate easily (like tartaric acid).
+
+They give wine its sharp, tangy taste.
+
+Volatile Acidity
+
+Acids that do evaporate (like acetic acid, which is vinegar-like).
+
+Too much makes wine taste sour or spoiled.
+
+Citric Acid
+
+A natural acid found in citrus fruits.
+
+Adds freshness and flavor balance to wine.
+
+Residual Sugar
+
+The sugar left after fermentation.
+
+Higher values = sweeter wine; lower values = dry wine.
+
+Chlorides
+
+Amount of salt in the wine.
+
+Too much can make wine taste salty or unpleasant.
+
+Free Sulfur Dioxide (SO₂)
+
+A preservative that protects wine from bacteria and oxidation.
+
+“Free” means the active part that’s working right now.
+
+Total Sulfur Dioxide (SO₂)
+
+The sum of free + bound SO₂.
+
+High levels can affect taste and smell (like a burnt match).
+
+Density
+
+How heavy the wine is compared to water.
+
+Related to alcohol and sugar content (sweet wines are denser).
+
+pH
+
+A measure of acidity (lower pH = more acidic).
+
+Influences taste and stability of wine.
+
+Sulphates
+
+Compounds that help preserve wine and add to flavor.
+
+Can enhance bitterness if too high.
+
+Alcohol
+
+Percentage of ethanol in the wine.
+
+Higher alcohol usually means stronger taste and body.
+
+Quality
+
+A score (usually 0–10) given by wine tasters.
+
+It’s the target variable you’re trying to predict in ML projects.
+
+🔑 Big Picture
+Acidity-related features: fixed acidity, volatile acidity, citric acid, pH.
+
+Sweetness-related features: residual sugar, density.
+
+Preservatives: free SO₂, total SO₂, sulphates.
+
+Taste influencers: chlorides, alcohol.
+
+Outcome: quality (the label you want to classify or predict).
